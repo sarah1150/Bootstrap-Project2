@@ -1,0 +1,102 @@
+.header {
+  background-image: url("images/bg-pattern-top-desktop.svg");
+  background-repeat: no-repeat;
+}
+
+.container-fluid {
+  background-image: url("images/bg-pattern-bottom-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: right bottom -20rem;
+  padding-bottom: 80px;
+}
+
+.text-purple {
+  color: hsl(300, 43%, 22%);
+}
+
+.lead {
+  font-size: 15px;
+  color: hsl(303, 10%, 53%);
+}
+
+.star {
+  width: 17px;
+  height: 17px;
+  margin: 2px;
+}
+
+.lightBoxes {
+  background-color: hsl(300, 24%, 96%);
+  border-radius: 10px;
+  font-size: 12px;
+  position: relative;
+}
+
+.cardColor {
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 10px;
+  width: 350px;
+  height: 250px;
+}
+
+.pargraphCard {
+  color: hsl(0, 0%, 100%);
+}
+
+.imgStyle {
+  border-radius: 50px;
+  width: 40px;
+  height: 40px;
+}
+
+.allDarkCards {
+  margin-top: 1.5rem;
+}
+
+@media (max-width: 400px) {
+  .firstSmallBox,
+  .secoundSmallBox,
+  .thirdSmallBox {
+    padding: 15px 0px;
+    margin: 17px 0px 0px 9px;
+  }
+
+  .justifySmall {
+    display: flex;
+    justify-content: center;
+  }
+
+  .cardColor {
+    width: 320px;
+    height: 250px;
+  }
+
+  .userName {
+    display: inline-block;
+  }
+}
+
+@media (min-width: 401px) {
+  .firstSmallBox {
+    padding: 15px 0px;
+    margin: 17px 50px 0px -29px;
+    right: 95px;
+  }
+
+  .secoundSmallBox {
+    padding: 15px 0px;
+    margin: 17px 0px 0px 6px;
+    right: 65px;
+  }
+
+  .thirdSmallBox {
+    padding: 15px 0px;
+    margin: 17px -6px 0px 30px;
+  }
+
+  .bigScreen {
+    display: flex;
+    justify-content: space-between;
+  }
+}
